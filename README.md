@@ -1,3 +1,4 @@
 # Kokoa Clone 2021
 
-HTML & CSS are so much fun!
+Use HTML & CSS, make a kokoa clone 2021.
+
