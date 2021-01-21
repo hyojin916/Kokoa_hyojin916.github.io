@@ -1,0 +1,39 @@
+#no-pc {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  font-size: 32px;
+}
+
+@media screen and (max-width:1024px) {
+  #no-pc {
+    display: none;
+  }
+}
+/* No-Landscape in Mobile 
+#no-landscape {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  font-size: 32px;
+}
+
+@media screen and (orientation:portrait) and(orientation:mo {
+  #no-landscape {
+    display: none;
+
+  }
+}
+*/
